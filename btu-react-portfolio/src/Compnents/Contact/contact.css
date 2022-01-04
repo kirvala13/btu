@@ -1,0 +1,92 @@
+
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+.contacts-photo{
+    background: url("../../assets/contact.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 30%;
+    margin: 40px 30px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.form-container form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-container form input{
+    margin-bottom: 25px;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.contact-button{
+    margin-top: 20px;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: white;
+    border-radius: 20px;
+}
+
+.form-header{
+    font-size: 40px;
+    color: rgb(29, 29, 29);
+    font-weight: 400;
+}
+
+.describe-container{
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 80px;
+}
+
+.describe{
+    margin: 10px 0px ;
+}
+
+.social{
+    margin-top: 30px;
+}
+
+.based p{
+    margin: 0;
+}
+.based h4{
+    margin: 3px;
+}
+
+.contact p,h4{
+    margin: 1;
+}
+
+.social{
+    font-size: 40px;
+    margin: 0;
+    width: 250px;
+    margin-top: 70px;
+}
+.social  a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    margin: 0px 15px 0px 0px;
+}
